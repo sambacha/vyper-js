@@ -1,0 +1,68 @@
+{
+    "plugins": ["plugins/markdown", "node_modules/jsdoc-autoprivate/autoprivate.js"],
+    "recurseDepth": 10,
+    "source": {
+        "include": ["vyper.js"],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc", "closure"]
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts": {
+        "template": "node_modules/minami",
+        "readme": "README.md"
+    },
+    "docdash": {
+        "static": true,
+        "sort": true,
+        "sectionOrder": [
+            "Modules",
+            "Externals",
+            "Events",
+            "Namespaces",
+            "Mixins",
+            "Tutorials",
+            "Interfaces",
+            "Classes"
+        ],
+        "openGraph": {
+            "title": "Vyper-js",
+            "type": "website",
+            "image": "",
+            "site_name": "",
+            "url": ""
+        },
+        "meta": {
+            "title": "",
+            "description": "",
+            "keyword": ""
+        },
+        "search": true,
+        "commonNav": true,
+        "collapse": false,
+        "wrap": true,
+        "private": true,
+        "removeQuotes": "all",
+        "menu": {
+            "Github homepage": {
+                "href": "https://github.com/sambacha/vyper-js",
+                "target": "_blank",
+                "class": "menu-item",
+                "id": "website_link"
+            },
+            "Chat (telegram)": {
+                "href": "https://t.me/manifoldfinance",
+                "target": "_blank",
+                "class": "menu-item",
+                "id": "forum_link"
+            }
+        }
+    }
+}
