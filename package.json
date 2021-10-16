@@ -1,8 +1,9 @@
 {
   "name": "vyper-js",
   "version": "0.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "private": true,
+  "description": "Vyper parser in javascript",
+  "main": "lib/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
